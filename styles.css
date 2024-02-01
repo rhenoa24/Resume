@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
-    background-image: url(https://i.pximg.net/img-original/img/2024/01/13/01/09/17/115116597_p0.png)
+    background-image: url(https://pbs.twimg.com/profile_banners/1378682925810548738/1703416221/1500x500);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Noto Sans JP';
+    text-align: center;
+}
+
+h1 {
+    font-weight: 100;
 }
