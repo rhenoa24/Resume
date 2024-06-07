@@ -1,0 +1,11 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Inter Tight", sans-serif;
+}
+
+body {
+    background-image: url('../images/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: 102%;
+}
