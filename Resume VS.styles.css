@@ -126,7 +126,7 @@
 
 
     .profile .img[b-0q64y0gfq1] {
-        background-image: url('../images/Profile.png');
+        background-image: url('/images/Profile.png');
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
@@ -173,7 +173,7 @@
 
 .education[b-0q64y0gfq1] {
     margin-top: -50px;
-    height: 305px;
+    height: 271px;
 }
 
 /*<==============================================*/
