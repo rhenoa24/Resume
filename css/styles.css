@@ -3,17 +3,17 @@
 
 @font-face {
     font-family: "Hustle Bright";
-    src: url("/fonts/Hustle Bright.ttf");
+    src: url("../fonts/Hustle Bright.ttf");
 }
 
 @font-face {
     font-family: "Hustle Bright Italic";
-    src: url("/fonts/Hustle Bright Italic.ttf") ;
+    src: url("../fonts/Hustle Bright Italic.ttf") ;
 }
 
 @font-face {
     font-family: "Brasika Display";
-    src: url("/fonts/brasika-display-trial.otf") ;
+    src: url("../fonts/brasika-display-trial.otf") ;
 }
 
 .decorative {
