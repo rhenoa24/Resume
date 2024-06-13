@@ -26,6 +26,8 @@
 .top-menu[b-0q64y0gfq1] {
     display: flex;
     justify-content: space-between;
+    z-index: 1;
+    position: relative;
 }
 
 
