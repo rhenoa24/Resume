@@ -24,6 +24,18 @@
     font-family: "Inter Tight", sans-serif;
 }
 
+html {
+    min-width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /*span, div {
     cursor: default;
 }*/
