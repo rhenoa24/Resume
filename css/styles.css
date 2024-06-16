@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: "Hustle Bright Italic";
-    src: url("../fonts/Hustle Bright Italic.ttf") ;
+    src: url("../fonts/Hustle Bright Italic.ttf");
 }
 
 @font-face {
     font-family: "Brasika Display";
-    src: url("../fonts/brasika-display-trial.otf") ;
+    src: url("../fonts/brasika-display-trial.otf");
 }
 
 .decorative {
@@ -51,4 +51,34 @@ body {
     background-repeat: no-repeat;
     background-size: 102%;*/
     background-color: #F6EFE1;
+}
+
+/*<==============================================*/
+/*       GLOBAL STYLE
+/*===============================================*/
+* {
+    letter-spacing: -1px;
+    transition: all 0.2s ease-in-out, font-size 0s ease;
+}
+
+.page-container {
+    padding: 0px 20px
+}
+
+@media screen and (max-width: 540px) {
+    .page-container {
+        padding: 0;
+    }
+}
+
+/*<==============================================*/
+/*       COLORS
+/*===============================================*/
+
+.red-bg {
+    background-color: #a90000;
+}
+
+.blue-bg {
+    background-color: #1f1e6f;
 }
