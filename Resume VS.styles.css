@@ -248,7 +248,7 @@
 /*       INTRODUCTION
 /*===============================================*/
 .landing[b-ru0mvln9a3] {
-    margin-top: -30px
+    margin-top: 55px;
 }
 
 .intro[b-ru0mvln9a3] {
@@ -264,7 +264,7 @@
 
     .intro .paragraph[b-ru0mvln9a3] {
         font-size: 30px;
-        margin-top: 15px;
+        margin: 15px 0;
         font-weight: 400;
         line-height: 1.4;
         max-width: 475px;
@@ -433,6 +433,17 @@
     padding: 0px 20px;
 }
 
+.fixed[b-ad32eqydln] {
+    position: fixed;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    top: 0;
+    width: 100%;
+    /*background-color: #f5efe2;*/
+    z-index: 100;
+    transition: color 0s, opacity 0.1s ease;
+}
+
 
 .title[b-ad32eqydln] {
     font-size: 25px;
@@ -441,10 +452,15 @@
     display: flex;
     align-items: center;
     height: 40px;
+    transition: inherit;
 }
 
     .title .star[b-ad32eqydln] {
         font-size: 35px;
+    }
+
+    .title .name[b-ad32eqydln] {
+        transition: inherit;
     }
 
 .star[b-ad32eqydln] {
@@ -457,10 +473,12 @@
     gap: 2rem;
     padding-right: 1rem;
     align-items: center;
+    transition: inherit;
 }
 
     .menu-nav .item[b-ad32eqydln] {
         font-weight: 700;
+        transition: inherit;
     }
 
 /*<==============================================*/
@@ -491,7 +509,6 @@
 }
 
 @media screen and (max-width: 540px) {
-
 }
 
 @media screen and (max-width: 360px) {
