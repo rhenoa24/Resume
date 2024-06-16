@@ -1,17 +1,96 @@
 /* /Pages/Index.razor.rz.scp.css */
 /* /Pages/Sections/Education.razor.rz.scp.css */
 /*<==============================================*/
+/*       COLORS
+/*===============================================*/
+
+.orange-blue[b-ncrpgfqtv5] {
+    color: #FD8D14;
+    -webkit-text-stroke: 5px #211d6e;
+}
+
+/*<==============================================*/
 /*       EDUCATION
 /*===============================================*/
 
-.education[b-ncrpgfqtv5] {
+.vitae[b-ncrpgfqtv5] {
     margin-top: -50px;
-    height: 271px;
+    height: 1080px;
 }
+
+.title[b-ncrpgfqtv5] {
+    color: #FDAE16;
+    font-size: 50px;
+}
+
+.timeline[b-ncrpgfqtv5] {
+    color: white;
+    display: grid;
+    grid-template-columns: 28px 190px 1fr;
+    margin-top: 1rem;
+}
+
+.stars[b-ncrpgfqtv5] {
+    display: grid;
+    font-size: 35px;
+    position: relative;
+}
+
+    .stars .star[b-ncrpgfqtv5] {
+        z-index: 1;
+        paint-order: stroke fill;
+        line-height: 25px;
+        min-height: 54px;
+    }
+
+    .stars .v-line[b-ncrpgfqtv5] {
+        position: absolute;
+        width: 1px;
+        height: calc(100% - 54px);
+        background-color: white;
+        z-index: 0;
+        /**/
+        top: 16px;
+        left: 14px;
+    }
+
+.years[b-ncrpgfqtv5] {
+    display: grid;
+    align-items: start;
+    padding-left: 1rem;
+    font-size: 20px;
+}
+
+    .years .year[b-ncrpgfqtv5] {
+        font-family: inherit;
+        letter-spacing: 0;
+    }
+
+.details[b-ncrpgfqtv5] {
+    display: grid;
+    align-items: start;
+    padding-left: 1rem;
+    font-size: 18px;
+}
+
+    .details .item[b-ncrpgfqtv5] {
+        display: grid;
+    }
+
+        .details .item .work[b-ncrpgfqtv5] {
+            font-weight: 700;
+        }
 
 /*<==============================================*/
 /*       LAYOUTS
 /*===============================================*/
+.layout-container[b-ncrpgfqtv5] {
+    padding: 30px 360px;
+}
+
+.experience[b-ncrpgfqtv5] {
+    width: 50%;
+}
 
 .two-group[b-ncrpgfqtv5] {
     display: grid;
@@ -66,6 +145,8 @@
 /*===============================================*/
 .profile-container[b-ru0mvln9a3] {
     padding: 0 100px;
+    position: relative;
+    z-index: 1;
 }
 
 .popup[b-ru0mvln9a3] {
@@ -143,9 +224,29 @@
     }
 
 /*<==============================================*/
-/*       INTRODUCTION
+/*       RESUME TEXT ART
 /*===============================================*/
 
+.resume[b-ru0mvln9a3] {
+    display: grid;
+    color: transparent;
+    position: absolute;
+    -webkit-text-stroke: 1px #FDAE16;
+    z-index: -1;
+    /**/
+    font-size: 94px;
+    bottom: -25%;
+    left: 10%;
+}
+
+    .resume span[b-ru0mvln9a3] {
+        font-family: inherit;
+        line-height: 1;
+    }
+
+/*<==============================================*/
+/*       INTRODUCTION
+/*===============================================*/
 .landing[b-ru0mvln9a3] {
     margin-top: -30px
 }
