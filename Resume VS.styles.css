@@ -166,6 +166,79 @@ img[b-7lvfnffhqi] {
 
 @media screen and (max-width: 470px) {
 }
+/* /Pages/Components/Ticker.razor.rz.scp.css */
+/*<==============================================*/
+/*       COLORS
+/*===============================================*/
+
+/*<==============================================*/
+/*       TEXT STYLING
+/*===============================================*/
+.scrolling_text[b-c0uc600b16] {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    white-space: nowrap;
+    padding-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+.text[b-c0uc600b16] {
+    font-size: 94px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px #FDAE16;
+    animation: animate_text-b-c0uc600b16 60s linear infinite; /* The animation property */
+}
+
+    .text span[b-c0uc600b16] {
+        /*margin: 0 10px;*/
+        letter-spacing: 0;
+    }
+
+@keyframes animate_text-b-c0uc600b16 {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.decorative[b-c0uc600b16]::after {
+    content: " ";
+}
+
+/*<==============================================*/
+/*       MEDIA QUERY
+/*===============================================*/
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1190px) {
+}
+
+@media screen and (max-width: 1040px) {
+}
+
+@media screen and (max-width: 990px) {
+}
+
+@media screen and (max-width: 920px) {
+}
+
+@media screen and (max-width: 730px) {
+}
+
+@media screen and (max-width: 590px) {
+}
+
+@media screen and (max-width: 570px) {
+}
+
+@media screen and (max-width: 470px) {
+}
 /* /Pages/Index.razor.rz.scp.css */
 /* /Pages/Sections/Education.razor.rz.scp.css */
 /*<==============================================*/
@@ -457,7 +530,7 @@ img[b-7lvfnffhqi] {
 
 
     .background[b-ncrpgfqtv5] {
-        height: calc(100% - 10%);
+        /*height: calc(100% - 10%);*/
     }
 
 }
@@ -698,7 +771,7 @@ img[b-7lvfnffhqi] {
         font-weight: 400;
         line-height: 1.4;
         max-width: 475px;
-        letter-spacing: 0px;
+        /*letter-spacing: 0px;*/
     }
 
 /*<==============================================*/
@@ -1034,10 +1107,88 @@ img[b-7lvfnffhqi] {
     -webkit-text-stroke: 5px #FDAE16;
 }
 
+.red[b-71mgteca8h] {
+    background-color: #a90000;
+}
+
+/*<==============================================*/
+/*       PORTFOLIO CARD
+/*===============================================*/
+.divider-card[b-71mgteca8h] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /**/
+    height: 400px;
+    justify-content: center;
+    gap: 1rem;
+}
+
+    .divider-card .layout-container[b-71mgteca8h] {
+        /*padding-bottom: 30px;*/
+        height: 135px;
+    }
+
+    .divider-card .title[b-71mgteca8h] {
+        color: white;
+        font-size: 80px;
+    }
+
+    .divider-card .contents[b-71mgteca8h] {
+        color: white;
+        padding-bottom: 30px;
+        /**/
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: calc(60% + 9rem);
+        /**/
+        cursor: pointer;
+    }
+
+        .divider-card .contents .item[b-71mgteca8h] {
+            font-size: 30px;
+            color: #f9ae26;
+        }
+
+        .divider-card .contents span[b-71mgteca8h] {
+            font-size: 18px;
+        }
+
+/*.indicator {
+    background-color: #f9ae26;
+    height: 3px;
+    opacity: 0;
+    border-radius: 10px;
+}*/
+
+.content-box[b-71mgteca8h] {
+    /*padding: 0 1rem;*/
+    padding: 10px 4rem;
+    border-radius: 8px;
+    position: relative;
+    white-space: nowrap;
+}
+
+    .content-box .star[b-71mgteca8h] {
+        position: absolute;
+        top: 0px;
+        left: 25px;
+        line-height: 56px;
+        display: block;
+        opacity: 0;
+    }
+
+    .content-box:hover > .star[b-71mgteca8h] {
+        opacity: 1;
+    }
+
+/*    .content-box:hover {
+        background-color: #6f0003;
+    }*/
+
 /*<==============================================*/
 /*       PORTFOLIO
 /*===============================================*/
-
 .portfolio[b-71mgteca8h] {
     /*margin-top: -120px;*/
     /*height: 895px;*/
@@ -1239,7 +1390,7 @@ img[b-7lvfnffhqi] {
 
 @media screen and (max-width: 1190px) {
     .portfolio[b-71mgteca8h] {
-        margin-top: 0;
+        margin-top: -30px;
     }
 }
 
