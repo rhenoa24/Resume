@@ -208,10 +208,20 @@ img[b-7lvfnffhqi] {
     animation: animate_text-b-c0uc600b16 60s linear infinite; /* The animation property */
 }
 
+.text[b-c0uc600b16] {
+    margin-right: 1.5rem;
+}
+
     .text span[b-c0uc600b16] {
         /*margin: 0 10px;*/
         letter-spacing: 0;
     }
+
+        .text span[b-c0uc600b16]:after {
+            content: '  ';
+        }
+
+
 
 @keyframes animate_text-b-c0uc600b16 {
     from {
@@ -1158,8 +1168,8 @@ img[b-7lvfnffhqi] {
 }
 
     .divider-card .layout-container[b-71mgteca8h] {
-        /*padding-bottom: 30px;*/
         height: 135px;
+        width: 92%;
     }
 
     .divider-card .title[b-71mgteca8h] {
@@ -1186,6 +1196,10 @@ img[b-7lvfnffhqi] {
         .divider-card .contents span[b-71mgteca8h] {
             font-size: 18px;
         }
+
+    .divider-card .title[b-71mgteca8h] {
+        margin-left: 20px;
+    }
 
 /*.indicator {
     background-color: #f9ae26;
@@ -1244,13 +1258,6 @@ img[b-7lvfnffhqi] {
     margin-left: 40px;
 }
 
-.timeline[b-71mgteca8h] {
-    color: white;
-    display: grid;
-    position: relative;
-    margin-top: 1rem;
-}
-
 .star[b-71mgteca8h] {
     font-size: 35px;
     z-index: 1;
@@ -1258,45 +1265,6 @@ img[b-7lvfnffhqi] {
     line-height: 25px;
     min-height: 54px;
 }
-
-.v-line[b-71mgteca8h] {
-    position: absolute;
-    width: 1px;
-    height: calc(100% - 54px);
-    background-color: white;
-    z-index: 0;
-    /**/
-    top: 16px;
-    left: 13px;
-}
-
-.details[b-71mgteca8h] {
-    display: grid;
-    align-items: start;
-    padding-left: 1rem;
-    font-size: 18px;
-}
-
-    .details .item[b-71mgteca8h] {
-        display: grid;
-        margin-top: -3px;
-    }
-
-        .details .item .work[b-71mgteca8h] {
-            font-weight: 700;
-        }
-
-.skills[b-71mgteca8h] {
-    display: grid;
-    grid-template-columns: 44px 190px 1fr;
-    align-items: start;
-    font-size: 20px;
-    row-gap: 1rem;
-}
-
-    .skills .skill[b-71mgteca8h] {
-        letter-spacing: 0;
-    }
 
 /*<==============================================*/
 /*       PORTFOLIO
@@ -1415,6 +1383,89 @@ img[b-7lvfnffhqi] {
     height: calc(100% - 10%);
     overflow: hidden;
 }
+
+/*<==============================================*/
+/*       MOCKUP STYLED
+/*===============================================*/
+
+.UI-section[b-71mgteca8h] {
+    position: relative;
+    overflow: hidden;
+}
+
+    .UI-section .gallery[b-71mgteca8h] {
+        background-color: #2d54a2;
+        padding-top: 3rem;
+    }
+
+.mockup[b-71mgteca8h] {
+    position: relative;
+    margin-top: -130px;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+    .mockup .img[b-71mgteca8h] {
+        width: 890px;
+        height: 650px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        flex-shrink: 0;
+    }
+
+.info-box[b-71mgteca8h] {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    /*flex-grow: 1;*/
+    align-items: center;
+}
+
+    .info-box .box-content[b-71mgteca8h] {
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+    }
+
+        .info-box .box-content .decorative[b-71mgteca8h] {
+            font-size: 80px;
+            margin-top: 3rem;
+        }
+
+        .info-box .box-content span[b-71mgteca8h] {
+            font-size: 18px;
+        }
+
+        .info-box .box-content .skills[b-71mgteca8h] {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+
+
+        .info-box .box-content.datashield .decorative[b-71mgteca8h] {
+            color: #3353a1;
+        }
+
+.tag-container[b-71mgteca8h] {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+    .tag-container .tag[b-71mgteca8h] {
+        font-weight: 200;
+        background-color: black;
+        color: white;
+        padding: 5px 25px;
+        border-radius: 50px;
+        letter-spacing: 0;
+    }
 
 /*<==============================================*/
 /*       MEDIA QUERY
