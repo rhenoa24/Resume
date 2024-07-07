@@ -16,8 +16,18 @@
     src: url("../fonts/brasika-display-trial.otf");
 }
 
+@font-face {
+    font-family: "Rosetti";
+    src: url("../fonts/Rosseti-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Rosetti Light";
+    src: url("../fonts/Rosseti-Light.ttf");
+}
+
 .decorative {
-    font-family: "Brasika Display";
+    font-family: "Rosetti";
 }
 
 * {
@@ -57,7 +67,7 @@ body {
 /*       GLOBAL STYLE
 /*===============================================*/
 * {
-    letter-spacing: -1px;
+    /*letter-spacing: -1px;*/
     transition: all 0.2s ease-in-out, font-size 0s ease;
 }
 
