@@ -216,7 +216,7 @@ img[b-7lvfnffhqi] {
     text-transform: uppercase;
     /*color: transparent;*/
     /*-webkit-text-stroke: 2px #FDAE16;*/
-    animation: animate_text-b-c0uc600b16 60s linear infinite; /* The animation property */
+    animation: animate_text-b-c0uc600b16 120s linear infinite; /* The animation property */
     /**/
     -webkit-text-stroke: 3px #FDAE16;
     paint-order: stroke fill;
@@ -1477,35 +1477,6 @@ img[b-7lvfnffhqi] {
     position: relative;
 }
 
-.circle-design[b-71mgteca8h] {
-    position: absolute;
-    background: linear-gradient(180deg, white 0%, #747485 80%, #747489 85%, #818fb3 100%);
-    border-radius: 50%;
-    z-index: 0;
-    filter: drop-shadow(0px -15px 10px #6589e3);
-    /**/
-    top: -2%;
-    left: 3%;
-    width: 25vw;
-    height: 25vw;
-}
-
-    .circle-design.two[b-71mgteca8h] {
-        top: 40%;
-        left: 78%;
-        width: 15vw;
-        height: 15vw;
-    }
-
-    .circle-design.three[b-71mgteca8h] {
-        top: 36%;
-        left: 90%;
-        width: 2vw;
-        height: 2vw;
-        /**/
-        filter: drop-shadow(0px -10px 10px #6589e3);
-    }
-
 /*<==============================================*/
 /*       MOCKUP STYLED
 /*===============================================*/
@@ -1515,8 +1486,9 @@ img[b-7lvfnffhqi] {
 }
 
     .UI-section .gallery[b-71mgteca8h] {
-        background-color: #2d54a2;
+        /*background-color: #2d54a2;*/
         padding-top: 7rem;
+        background: linear-gradient(180deg, #3353a1 40%, #211d6e 100%);
     }
 
 .mockup[b-71mgteca8h] {
@@ -2316,6 +2288,145 @@ img[b-7lvfnffhqi] {
         margin-bottom: -1rem;
     }
 }
+/* /Pages/Sections/Portfolio_Web.razor.rz.scp.css */
+/*<==============================================*/
+/*       ROLLING SCREENS
+/*===============================================*/
+.WebDesign-section[b-4sp7uei6xv] {
+    overflow: hidden;
+    height: 850px;
+    background-color: #f6f6f8;
+    position: relative;
+}
+
+.overlay[b-4sp7uei6xv] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(20deg, #305c9a 0%, transparent 40%);
+    z-index: 1;
+    /**/
+    display: flex;
+    align-items: flex-end;
+}
+
+    .overlay .link-header[b-4sp7uei6xv] {
+        cursor: pointer;
+    }
+
+        .overlay .link-header:hover .big-text[b-4sp7uei6xv] {
+            color: white;
+        }
+
+    .overlay .big-text[b-4sp7uei6xv] {
+        color: transparent;
+        font-size: 160px;
+        -webkit-text-stroke: 1px white;
+        line-height: normal;
+        padding-left: 2rem;
+    }
+
+    .overlay .icon[b-4sp7uei6xv] {
+        color: white;
+        font-size: 30px;
+        line-height: normal;
+        padding-bottom: 45px;
+    }
+
+.link-header[b-4sp7uei6xv] {
+    display: flex;
+    align-items: flex-end;
+}
+
+.rolling-screen-container[b-4sp7uei6xv] {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(480px, 1fr));
+}
+
+.group-screen[b-4sp7uei6xv] {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img[b-4sp7uei6xv] {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+}
+
+.scrolling-img[b-4sp7uei6xv] {
+    animation: animate_up-b-4sp7uei6xv 60s linear infinite; /* The animation property */
+}
+
+    .scrolling-img.down[b-4sp7uei6xv] {
+        animation: animate_up-b-4sp7uei6xv 50s linear infinite; /* The animation property */
+    }
+
+@keyframes animate_up-b-4sp7uei6xv {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, -100%, 0);
+    }
+}
+
+@keyframes animate_down-b-4sp7uei6xv {
+    from {
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+/*<==============================================*/
+/*       MEDIA QUERY
+/*===============================================*/
+@media screen and (max-width: 1760px) {
+}
+
+
+@media screen and (max-width: 1580px) {
+}
+
+@media screen and (max-width: 1420px) {
+}
+
+@media screen and (max-width: 1220px) {
+}
+
+@media screen and (max-width: 1190px) {
+}
+
+@media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 990px) {
+}
+
+@media screen and (max-width: 920px) {
+
+
+    @media screen and (max-width: 730px) {
+    }
+
+    @media screen and (max-width: 590px) {
+    }
+
+    @media screen and (max-width: 570px) {
+    }
+
+    @media screen and (max-width: 375px) {
+    }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-c0jivojts6] {
     position: relative;
