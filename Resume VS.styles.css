@@ -700,6 +700,35 @@ img[b-7lvfnffhqi] {
     .skills[b-ncrpgfqtv5] {
         width: auto;
     }
+
+
+    .details[b-ncrpgfqtv5] {
+        grid-column: span 3;
+        padding-left: 40px;
+        margin-top: -2rem;
+    }
+
+    .education[b-ncrpgfqtv5] {
+        padding: 30px 0;
+    }
+
+        .education .details[b-ncrpgfqtv5] {
+            padding-left: 44px;
+        }
+
+
+    .bullet[b-ncrpgfqtv5] {
+        margin-bottom: 1rem;
+    }
+
+        .bullet .details[b-ncrpgfqtv5] {
+            padding-left: 1rem;
+            margin: 0;
+        }
+
+    #line-skills[b-ncrpgfqtv5] {
+        height: 64% !important;
+    }
 }
 /* /Pages/Sections/Landing.razor.rz.scp.css */
 /*<==============================================*/
@@ -1759,6 +1788,31 @@ img[b-7lvfnffhqi] {
     .mockup .img[b-71mgteca8h] {
         margin-bottom: -1rem;
     }
+
+    .tag-container .tag[b-71mgteca8h] {
+        font-size: 14px;
+    }
+
+    .info-box .box-content .skills[b-71mgteca8h] {
+        font-size: 1rem;
+    }
+
+    .experience[b-71mgteca8h] {
+        padding: 0;
+    }
+
+    .content-box[b-71mgteca8h] {
+        padding-left: 3rem;
+    }
+
+        .content-box .star[b-71mgteca8h] {
+            left: 10px;
+        }
+
+    .UI-section .gallery[b-71mgteca8h] {
+        padding-top: 0;
+        height: 430px;
+    }
 }
 /* /Pages/Sections/Portfolio_Design.razor.rz.scp.css */
 /*<==============================================*/
@@ -2237,29 +2291,36 @@ img[b-7lvfnffhqi] {
 }
 
 @media screen and (max-width: 375px) {
+    .selector[b-49831o6vct] {
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        justify-items: end;
+    }
+
+        .selector .icon[b-49831o6vct] {
+            height: 15vw;
+            width: 40vw;
+            border-radius: 10px;
+        }
+
+    .description[b-49831o6vct] {
+        grid-column: span 2;
+        text-align: center;
+        width: 265px;
+    }
+
+        .description .short-info[b-49831o6vct] {
+            font-size: 1rem;
+            padding: 0;
+        }
 }
 /* /Pages/Sections/Portfolio_Diagrams.razor.rz.scp.css */
 /*<==============================================*/
 /*       COLORS
 /*===============================================*/
 
-.orange-blue[b-szib9a0q2v] {
-    color: #FD8D14;
-    -webkit-text-stroke: 5px #211d6e;
-}
-
-.white-yellow[b-szib9a0q2v] {
-    color: white;
-    -webkit-text-stroke: 5px #FDAE16;
-}
-
-.blue-yellow[b-szib9a0q2v] {
-    color: #211d6e;
-    -webkit-text-stroke: 5px #FDAE16;
-}
-
-.red[b-szib9a0q2v] {
-    background-color: #a90000;
+.Diagram-section[b-szib9a0q2v] {
+    background: linear-gradient(180deg, #f5efe2, white);
 }
 
 /*<==============================================*/
@@ -2937,19 +2998,39 @@ img[b-7lvfnffhqi] {
 }
 
 @media screen and (max-width: 920px) {
+}
 
+@media screen and (max-width: 730px) {
+}
 
-    @media screen and (max-width: 730px) {
+@media screen and (max-width: 590px) {
+}
+
+@media screen and (max-width: 570px) {
+}
+
+@media screen and (max-width: 375px) {
+    .overlay .big-text[b-4sp7uei6xv] {
+        font-size: calc(130px* 0.8);
+        line-height: 75px;
     }
 
-    @media screen and (max-width: 590px) {
+    .tag-container .tag[b-4sp7uei6xv] {
+        font-size: 14px;
     }
 
-    @media screen and (max-width: 570px) {
+    .extra-text[b-4sp7uei6xv] {
+        margin-top: -10px;
     }
 
-    @media screen and (max-width: 375px) {
+    .extra-text .skills[b-4sp7uei6xv] {
+        font-size: 1rem;
     }
+
+    .rolling-screen-container[b-4sp7uei6xv] {
+        grid-template-columns: repeat(4, minmax(375px, 1fr));
+    }
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-c0jivojts6] {
     position: relative;
