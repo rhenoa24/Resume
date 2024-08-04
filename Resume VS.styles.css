@@ -2320,7 +2320,8 @@ img[b-7lvfnffhqi] {
 /*===============================================*/
 
 .Diagram-section[b-szib9a0q2v] {
-    background: linear-gradient(180deg, #f5efe2, white);
+    background: linear-gradient(180deg, transparent, white);
+    overflow: hidden;
 }
 
 /*<==============================================*/
@@ -2372,13 +2373,6 @@ img[b-7lvfnffhqi] {
         margin-left: 20px;
     }
 
-/*.indicator {
-    background-color: #f9ae26;
-    height: 3px;
-    opacity: 0;
-    border-radius: 10px;
-}*/
-
 .content-box[b-szib9a0q2v] {
     /*padding: 0 1rem;*/
     padding: 10px;
@@ -2402,88 +2396,9 @@ img[b-7lvfnffhqi] {
         opacity: 1;
     }
 
-/*    .content-box:hover {
-        background-color: #6f0003;
-    }*/
-
-.portfolio-header[b-szib9a0q2v] {
-    /*margin-top: -120px;*/
-}
-
 /*<==============================================*/
-/*       PORTFOLIO
+/*       GALLERY
 /*===============================================*/
-.portfolio[b-szib9a0q2v] {
-    position: relative;
-    overflow: hidden;
-}
-
-.experience[b-szib9a0q2v] {
-    width: 615px;
-}
-
-.title[b-szib9a0q2v] {
-    color: black;
-    font-size: 50px;
-    /**/
-    margin-left: 40px;
-}
-
-.star[b-szib9a0q2v] {
-    font-size: 35px;
-    z-index: 1;
-    paint-order: stroke fill;
-    line-height: 25px;
-    min-height: 54px;
-}
-
-/*<==============================================*/
-/*       PORTFOLIO
-/*===============================================*/
-
-.divider-container[b-szib9a0q2v] {
-    display: flex;
-    justify-content: center;
-}
-
-.divider[b-szib9a0q2v] {
-    display: flex;
-    align-items: center;
-    gap: 3px;
-    height: 50px;
-    margin: -1rem 0;
-    z-index: 1;
-    position: relative;
-    /**/
-    padding: 0 1rem;
-    width: 1300px;
-}
-
-    .divider .h-line[b-szib9a0q2v] {
-        height: 1px;
-        flex-grow: 1;
-        background: black;
-    }
-
-        .divider .h-line.short[b-szib9a0q2v] {
-            max-width: 70px;
-        }
-
-    .divider .divider-title[b-szib9a0q2v] {
-        font-size: 20px;
-        margin: 0 10px;
-        text-align: center;
-        /*color: #211d6e;*/
-    }
-
-    .divider .star[b-szib9a0q2v] {
-        line-height: 60px;
-        /*color: #eb861f;*/
-    }
-
-    .divider.no-margin[b-szib9a0q2v] {
-        margin: 0;
-    }
 
 .gallery[b-szib9a0q2v] {
     display: grid;
@@ -2495,22 +2410,55 @@ img[b-7lvfnffhqi] {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        width: 100%;
-        /*height: 470px;*/
-        height: 40vw;
     }
-
-        .gallery .img.left[b-szib9a0q2v] {
-            margin-left: 100px;
-        }
-
-        .gallery .img.right[b-szib9a0q2v] {
-            margin-right: 100px;
-        }
 
     .gallery.diagrams .img[b-szib9a0q2v] {
-        height: 30vw;
+        /*width: 130%;*/
+        width: 100%;
+        height: 20vw;
+        /*transform: skewX(20deg) skewY(-3deg) scaleX(80%) scaleY(95%) rotateX(-55deg) rotateY(15deg) rotateZ(45deg)*/
     }
+
+.gallery[b-szib9a0q2v] {
+    transform: skewX(20deg) skewY(-3deg) scaleX(80%) scaleY(95%) rotateX(-55deg) rotateY(15deg) rotateZ(45deg);
+    scale: 140%;
+    margin-bottom: 200px;
+    right: -5%;
+    position: relative;
+}
+
+.tree-2[b-szib9a0q2v] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.tree-3[b-szib9a0q2v] {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+    .tree-3 .img[b-szib9a0q2v] {
+        width: 160% !important;
+        height: 25vw !important;
+    }
+
+        .tree-3 .img:nth-child(1)[b-szib9a0q2v] {
+            margin-left: -30%;
+            margin-top: 5%;
+            height: 20vw !important;
+        }
+
+        .tree-3 .img:nth-child(2)[b-szib9a0q2v] {
+            height: 25vw;
+            width: 100% !important;
+        }
+
+        .tree-3 .img:nth-child(3)[b-szib9a0q2v] {
+            margin-left: -30%;
+            margin-top: 5%;
+        }
 
 /*<==============================================*/
 /*       LAYOUTS
@@ -2766,9 +2714,15 @@ img[b-7lvfnffhqi] {
         /* width: initial;
         padding-left: 60px;*/
     }
+
+    .gallery[b-szib9a0q2v] {
+        margin-top: 45%;
+        scale: 350%;
+    }
 }
 
 @media screen and (max-width: 730px) {
+
 }
 
 @media screen and (max-width: 590px) {
