@@ -1,20 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
-@font-face {
-    font-family: "Hustle Bright";
-    src: url("../fonts/Hustle Bright.ttf");
-}
-
-@font-face {
-    font-family: "Hustle Bright Italic";
-    src: url("../fonts/Hustle Bright Italic.ttf");
-}
-
-@font-face {
-    font-family: "Brasika Display";
-    src: url("../fonts/brasika-display-trial.otf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @font-face {
     font-family: "Rosetti";
@@ -27,11 +12,12 @@
 }
 
 .decorative {
-    font-family: "Rosetti";
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
 }
 
 * {
-    font-family: "Inter Tight", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 html {
@@ -60,26 +46,19 @@ body {
     /*background-image: url('../images/Background.jpg');
     background-repeat: no-repeat;
     background-size: 102%;*/
-    background-color: #F6EFE1;
+    /*background-color: #F6EFE1;*/
+    background-color: white;
 }
 
 /*<==============================================*/
 /*       GLOBAL STYLE
 /*===============================================*/
 * {
-    /*letter-spacing: -1px;*/
     transition: all 0.2s ease-in-out, font-size 0s ease;
 }
 
 .page-container {
-    /*padding: 0px 20px;*/
     position: relative;
-}
-
-@media screen and (max-width: 540px) {
-    .page-container {
-        padding: 0;
-    }
 }
 
 /*<==============================================*/
@@ -91,7 +70,7 @@ body {
 }
 
 .blue-bg {
-    background-color: #1f1e6f;
+    background-color: #f5f5f5;
 }
 
 /*<==============================================*/
